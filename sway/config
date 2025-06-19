@@ -1,7 +1,7 @@
 # laptop
 font pango:Ubuntu 10
-default_border pixel 3
-default_floating_border pixel 3
+default_border pixel 1
+default_floating_border pixel 1
 gaps inner 9
 
 # class          border  backgr. text    flag    child_border
@@ -52,7 +52,7 @@ exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/cli
 
 ### key bindings
 # applications
-bindsym $mod+q kill
+bindsym $mod+Shift+q kill
 bindsym $mod+d exec fuzzel
 bindsym $mod+Return exec foot
 bindsym $mod+p exec swayshot
